@@ -7,7 +7,7 @@
 // https://bobobobo.wordpress.com/2010/10/17/md5-c-implementation/
 //
 // SHA1 -
-// ...
+// http://www.zedwood.com/article/cpp-sha1-function
 //
 // SHA256 -
 // http://www.zedwood.com/article/cpp-sha256-function
@@ -17,8 +17,12 @@
 #ifndef KC_DIGEST_H
 #define KC_DIGEST_H
 
+
+
 #include <string>
 #include <fstream>
+
+
 
 ////////// GLOBALS - MD5    //////////
 
@@ -38,6 +42,7 @@
 #define S42 10
 #define S43 15
 #define S44 21
+
 
 
 ////////// GLOBALS - SHA1   //////////
@@ -79,6 +84,7 @@
            | ((uint32) *((str) + 1) << 16)    \
            | ((uint32) *((str) + 0) << 24);   \
 }
+
 
 
 ////////// kc::digest //////////
@@ -196,20 +202,7 @@ namespace kc {
         uint32 m_h[8];
     };
 
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
 
 
 

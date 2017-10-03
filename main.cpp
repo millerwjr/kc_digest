@@ -86,11 +86,8 @@ int main() {
         infile2.close();
     }
 
-
     std::remove("kc_md5_temp_1.dat");
     std::remove("kc_md5_temp_2.dat");
-
-
 
 
 
@@ -175,13 +172,8 @@ int main() {
         infile2.close();
     }
 
-
     std::remove("kc_sha1_temp_1.dat");
     std::remove("kc_sha1_temp_2.dat");
-
-
-
-
 
 
 
@@ -264,7 +256,6 @@ int main() {
         }
         infile2.close();
     }
-
 
     std::remove("kc_sha256_temp_1.dat");
     std::remove("kc_sha256_temp_2.dat");

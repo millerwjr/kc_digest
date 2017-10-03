@@ -7,12 +7,14 @@
 // https://bobobobo.wordpress.com/2010/10/17/md5-c-implementation/
 //
 // SHA1 -
-// ...
+// http://www.zedwood.com/article/cpp-sha1-function
 //
 // SHA256 -
 // http://www.zedwood.com/article/cpp-sha256-function
 //
 // Please attribute accordingly.
+
+
 
 #include <cstring>
 #include <fstream>
