@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Google Drive/Projects/Programs/GitHub/kc_digest/kc_digest.cpp
+cstring
+-
+fstream
+-
+sstream
+-
+iostream
+-
+iomanip
+-
+kc_digest.h
+D:/Google Drive/Projects/Programs/GitHub/kc_digest/kc_digest.h
+
+D:/Google Drive/Projects/Programs/GitHub/kc_digest/kc_digest.h
+string
+-
+fstream
+-
+
+D:/Google Drive/Projects/Programs/GitHub/kc_digest/main.cpp
+iostream
+-
+kc_digest.h
+D:/Google Drive/Projects/Programs/GitHub/kc_digest/kc_digest.h
+
